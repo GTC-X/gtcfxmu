@@ -21,14 +21,7 @@ const Button = () => {
       >
         {t("liveAccount")}
       </Link>
-      <button
-        className="bg-secondary text-white text-xs 3xl:text-xl px-1 md:px-8 py-3 text-center shine-button rounded-md md:w-auto w-[200px] md:m-0 uppercase mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-[#10122d] hover:to-[#1b245e]"
-        // onClick={() => {
-        //   router.push("/free-demo-account", { locale: locale });
-        // }}
-      >
-        {t("demoAccount")}
-      </button>
+    
     </div>
   );
 };

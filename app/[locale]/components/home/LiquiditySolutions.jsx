@@ -73,7 +73,8 @@ const LiquiditySolutions = () => {
           <h3 className="text-sm md:text-xl font-bold text-secondary">{t("lpLabel")}</h3>
           <p className="text-xs md:text-sm text-primary mt-2 mb-10">{t("lpLabel1")}</p>
           <Link
-            href="/"
+              target="_blank"
+                                    href="https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww"
             className="bg-neutral-gradient text-white text-sm 3xl:text-xl px-8 py-3 text-center rounded-md md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500"
           >
             {t("butttonLp")}

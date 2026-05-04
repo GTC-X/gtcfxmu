@@ -27,7 +27,7 @@ const SecurityFund = () => {
               {t("title")}
             </h2>
             <p className={`text text-white md:text-sm text-xs text-left ltr:text-left rtl:text-right`}>
-            {t("desc")} <Link href="/compensation-fund" className="underline text-secondary capitalize" >{t("click")}</Link>
+            GTCFX has secured an insurance policy from the Financial Commission, offering protection for clients’ funds up to €20,000.
             </p>
           </div>
         </div>

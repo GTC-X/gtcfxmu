@@ -242,7 +242,7 @@ const Header = ({currentLanguage}) => {
       </div>
 
       <div className="lg:hidden flex gap-2 items-center">
-        <LanguageMobile href={href} />
+   
         <MobileMenu
           navigationData={navigationData}
           href={href}

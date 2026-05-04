@@ -59,10 +59,7 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
           <Link href="https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww" target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-white hover:text-primary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
             {t("tobbar.account")}
           </Link>
-          <Link href='/introductory-broker' className="hidden text-white uppercase bg-secondary hover:bg-primary hover:text-white text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
-            {t("tobbar.rgister")}
-          </Link>
-          <Language href={href} currentLanguage={currentLanguage} />
+    
         </div>
       </div>
     </section>

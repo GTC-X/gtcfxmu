@@ -71,7 +71,7 @@ export default function TradingPlatform() {
                     backgroundPosition: "center",
                   }}
                 >
-                  <Link href='/account-types' className="flex flex-col md:flex-row justify-start items-center hover:underline cursor-pointer gap-2 mb-5">
+                  <Link href='https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww' target="_blank" className="flex flex-col md:flex-row justify-start items-center hover:underline cursor-pointer gap-2 mb-5">
                     <div className="relative w-8 h-8 md:w-14 md:h-14">
                     <Image
                       src={account.iconSrc}
@@ -82,14 +82,9 @@ export default function TradingPlatform() {
                       loading="lazy"
                     />
                   </div>
-                    <p className="text text-[14px] md:text-base line-clamp-2 font-semibold uppercase md:w-24 text-left">{account.heading}</p>
+                    <p className="text text-[14px] md:text-base line-clamp-2 font-semibold uppercase md:w-24 text-left">{account.heading}</p>   
                     </Link>
-                  <Link
-                    href="/"
-                    className="text-sm md:text-base text-secondary px-2 md:py-1 rounded-lg hover:text-primary transition mt-[-5px] md:mt-4 font-bold"
-                  >
-                      {t('view_more')}
-                  </Link>
+               
                 </div>
               ))}
             </div>
