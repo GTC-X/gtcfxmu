@@ -10,12 +10,12 @@ export default function TradingPlatform() {
     {
       bgImage: "/stand.png", // Background Image
       iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/standard.webp",
-      heading: t("standardAccount.heading"),
+      heading: "STANDARD ACCOUNT (MetaTrade 5)",
     },
     {
       bgImage: "/ecn.png", // Background Image
       iconSrc: "https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/home/ecn.webp",
-      heading: t("ecnAccount.heading"),
+      heading: "ECN ACCOUNT (MetaTrade 5)"
     },
   ];
 
@@ -71,19 +71,7 @@ export default function TradingPlatform() {
                     backgroundPosition: "center",
                   }}
                 >
-                  <Link href='https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww' target="_blank" className="flex flex-col md:flex-row justify-start items-center hover:underline cursor-pointer gap-2 mb-5">
-                    <div className="relative w-8 h-8 md:w-14 md:h-14">
-                    <Image
-                      src={account.iconSrc}
-                      alt={`${account.title || "Trading account"} icon`}
-                      fill
-                      className="object-contain"
-                      sizes="(max-width:768px) 32px, 56px"
-                      loading="lazy"
-                    />
-                  </div>
-                    <p className="text text-[14px] md:text-base line-clamp-2 font-semibold uppercase md:w-24 text-left">{account.heading}</p>   
-                    </Link>
+                
                
                 </div>
               ))}

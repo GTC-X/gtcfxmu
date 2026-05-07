@@ -78,7 +78,7 @@ const Hero = () => {
                 {" "}
                 {t("slider1.description")}
               </p>
-              <Button />
+            
             </div>
           </SwiperSlide>
 
@@ -99,7 +99,7 @@ const Hero = () => {
                 <span className="font-bold"> {t("slider2.subheading2")}</span>
               </h2>
 
-              <Button />
+            
             </div>
           </SwiperSlide>
 
@@ -121,7 +121,6 @@ const Hero = () => {
                 </span>
               </h2>
 
-              <Button />
             </div>
           </SwiperSlide>
 
@@ -140,7 +139,7 @@ const Hero = () => {
                 </span>
               </h3>
 
-              <Button />
+      
             </div>
           </SwiperSlide>
 
@@ -156,7 +155,6 @@ const Hero = () => {
                 </span>
               </h3>
 
-              <Button />
             </div>
           </SwiperSlide>
 

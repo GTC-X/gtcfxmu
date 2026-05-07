@@ -24,7 +24,7 @@ function scrollToHashId(id, behavior = "smooth") {
 
  
 export default function HomePage() {
-  const t = useTranslations("home");  
+  const t = useTranslations("home"); 
 
   const router = useParams();
   const { locale } = router;
@@ -60,13 +60,12 @@ export default function HomePage() {
       <>
 
         <Hero />
-        <StatCounter stats={statsOne} />
+   
         <WhyGTC />
         <div id="liquidity-solutions" className="scroll-mt-36">
           <LiquiditySolutions />
         </div>
        
-        <SecurityFund />
         <div id="account-types" className="scroll-mt-36">
           <TradingPlatform />
         </div>

@@ -59,27 +59,7 @@ export default function MobileMenu(props) {
               <RxCross2 />
             </button>
           </div>
-          <div className="flex flex-row justify-center gap-4 items-center  p-3 border-b border-gray-300">
-            <div className="">
-              <Link
-                href="https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww"
-                target="_blank"
-                className="uppercase border border-[#29a643] hover:bg-primary hover:text-white  text-[11px] px-3 py-[6px] md:flex gap-2 items-center"
-              >
-                 {t("tobbar.account")}
-              </Link>
-              {/* Ensure any other link you want to add border styling to is updated similarly */}
-            </div>
-            <div className="">
-              <Link
-                href="/introductory-broker"
-                className=" uppercase border-secondary hover:bg-primary hover:text-white text-[11px] border  px-3 py-[6px] md:flex gap-2 items-center"
-              >
-                {t("tobbar.rgister")}
-              </Link>
-              {/* Ensure any other link you want to add border styling to is updated similarly */}
-            </div>
-          </div>
+ 
           <ul className="menu p-0 text-accent">
              <Link
               href="/contact-us"
@@ -138,14 +118,7 @@ export default function MobileMenu(props) {
                 )}
               </li>
             ))}
-            <Link
-              target="_blank"
-              href="https://mygtcfx.com/"
-              className="primaryButton rounded-none text-sm font-normal bg-primary hover:bg-secondary hover:text-primary flex gap-2 items-center"
-            >
-              <MdOutlineLogin size={20} /> {t("new_client_portal")} 
-            </Link>
-          
+            
           </ul>
         </Popover.Panel>
       </Transition>

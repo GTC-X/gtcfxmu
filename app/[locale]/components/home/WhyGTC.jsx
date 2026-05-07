@@ -107,11 +107,7 @@ const WhyGTC = () => {
             ))}
           </div>
         </div>
-        <div className="container text-primary flex flex-col justify-center items-center gap-2 pt-8 md:pt-0 md:gap-4 text-xs md:text-base 2xl:text-[17px]">
-          <p>{t("desc2")}</p>{" "}
-         <LiveAccountButton hoverStyle="bg-neutral-gradient text-white hover:bg-secondary"
-         />
-        </div>
+      
       </div>
     </section>
   );

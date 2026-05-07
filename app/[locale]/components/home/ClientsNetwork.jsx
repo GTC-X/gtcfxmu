@@ -23,15 +23,7 @@ const ClientsNetwork = () => {
                             <p className="text-gray-600 mb-6">
                                 {t("des")}
                             </p>
-                            <div className="mt-5">
-                                <Link
-                                target="_blank"
-                                    href="https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww&"
-                                    className={`bg-neutral-gradient text-white text-sm 3xl:text-xl px-8 py-3 text-center rounded-md md:w-auto w-[300px] md:m-0 mx-auto transition-colors duration-900 hover:bg-gradient-to-r hover:from-secondary hover:to-[#b68756] duration-500`}
-                                >
-                                    {t("butttonIB")}
-                                </Link>
-                            </div>
+                            
                         </div>
 
                         {/* Right Section - Client Testimonials */}

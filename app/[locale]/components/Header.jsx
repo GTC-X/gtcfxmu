@@ -210,11 +210,11 @@ const Header = ({currentLanguage}) => {
   <nav className="container">
     <div className="flex items-center justify-between">
       <Image
-        src="https://gtcfx-bucket.s3.ap-southeast-1.amazonaws.com/img/logo-2024-new.webp"
+        src="/logos.png"
         width={200}
-        height={72}
+        height={800}
         alt="GTCFX"
-        className="lg:w-[200px] lg:h-[72px] md:w-[120px] md:h-[53px] w-[130px] h-[47px] cursor-pointer"
+        className="lg:w-[200px] lg:h-[88px] md:w-[119px] md:h-[52px] w-[100px] h-[44px] cursor-pointer"
         onClick={() => router.push("/", { locale })}
       />
 
@@ -239,6 +239,12 @@ const Header = ({currentLanguage}) => {
           ))}
 
         </ul>
+         <Link
+              href="/contact-us"
+              className="bg-gradient-to-r from-[#263788] via-[#101638] to-[#263788] hover:from-[#B68756] hover:via-[#995F22] hover:to-[#995F22]  text-white border border-white border-opacity-30 px-3 py-3 hover:opacity-90 transition-opacity mt-2 text-[15px] md:text-base rounded-md 3xl:text-base flex flex-row gap-2 items-center"
+            >
+              Contact Us
+            </Link>
       </div>
 
       <div className="lg:hidden flex gap-2 items-center">

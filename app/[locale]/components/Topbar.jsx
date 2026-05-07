@@ -38,29 +38,10 @@ const TopBar = ({ currentLanguage, isAr, href }) => {
               <MdEmail /> support@gtcfx.com
             </Link>
             <span className="h-4 border-l border-white"></span>
-            <Link
-              href="https://wa.me/448000488461"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-secondary text-sm"
-            >
-              <FaWhatsapp /> +44 800 048 8461
-            </Link>
+          
           </p>
         </div>
 
-        {/* Links Section */}
-        <div className={`flex items-center gap-2 ${isAr ? "rtl:md:mr-4" : "ltr:md:ml-4"}`}>
-          <Link href="https://mygtcfx.com/" target="_blank" className="hidden text-white uppercase hover:bg-white hover:text-secondary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
-            <MdOutlineLogin size={20} />
-            {t("new_client_portal")}
-          </Link>
-    
-          <Link href="https://mygtcfx.com/getview?view=register&token=exhowww.z8owwwww" target="_blank" className="hidden text-white uppercase bg-[#29a643] hover:bg-white hover:text-primary text-sm border border-gray-200 px-3 py-[6px] md:flex gap-2 items-center">
-            {t("tobbar.account")}
-          </Link>
-    
-        </div>
       </div>
     </section>
   );
